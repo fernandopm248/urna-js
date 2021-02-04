@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>urna eletronica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="urna">
+
+        <div class="tela">
+   <div class="d-1"> 
+    <div class="d-1lef"> 
+        <div class="d-1-1">
+            <span>seu voto para</span>
+        </div>
+        <div class="d-1-2">
+            <span>vereador</span>
+        </div>
+        <div class="d-1-3">
+            <div class="numero pisca"> 3 </div> 
+            
+            <div class="numero"> </div>
+        </div>
+        <div class="d-1-4">
+            
+             nome : fulano<br/>
+             partido: pqp<br/>
+             vice : vasco
+
+                 
+
+        </div>
+    </div>
+
+    <div class="d-1rig"> 
+        <div class="d-1-image"> 
+        <img src="imagens/bonga.jpg" alt=""/>
+        prefeito
+        </div>
+        <div class="d-1-image small"> 
+            <img src="imagens/hachimura.jpg" alt=""/>
+        vice-prefeito
+            </div>
+    </div>
+
+   </div>
+   ..<div class="d-2"> 
+aperte a tela <br/> 
+confirma pra confirmar<br/>
+corrige pra reiniciar esse voto <br/>
+    
+</div>
+            </div> 
+
+            <div class="teclado">
+    ....
+    <div class="teclado-linha">
+
+        <div class="teclado-botao" onclick="clicou('1')">1</div> 
+        <div class="teclado-botao" onclick="clicou('2')">2</div> 
+        <div class="teclado-botao" onclick="clicou('3')">3</div> 
+ </div> 
+    <div class="teclado-linha">
+
+    <div class="teclado-botao" onclick="clicou('4')">4</div> 
+    <div class="teclado-botao" onclick="clicou('5')">5</div> 
+    <div class="teclado-botao" onclick="clicou('6')">6</div> 
+</div> 
+<div class="teclado-linha">
+
+    <div class="teclado-botao" onclick="clicou('7')">7</div> 
+    <div class="teclado-botao" onclick="clicou('8')">8</div> 
+    <div class="teclado-botao" onclick="clicou('9')">9</div> 
+</div> <div class="teclado-linha">
+
+    <div class="teclado-botao" onclick="clicou('0')">0</div> 
+   
+</div> <div class="teclado-linha">
+
+    <div class="teclado-botao botao-branco" onclick="branco()">branco</div> 
+    <div class="teclado-botao botao-corrige" onclick="corrige()">corrige</div> 
+    <div class="teclado-botao botao-confirma" onclick="confirma()">confirma</div> 
+</div> 
+
+
+
+            </div> 
+
+
+    </div>
+
+<script src="tapas.js"></script>;
+<script src="script.js"></script>;
+</body>
+</html>
