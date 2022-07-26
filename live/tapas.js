@@ -46,7 +46,7 @@ fotos:[
             numero:'98',
             nome:'etrigan' ,
             partido : 'los bruxos' ,
-            vice: 'brocha',
+            vice: 'constantine',
             fotos:[
                 {url:'thomas.jpg', legenda: 'prefeito'},
                 {url:'beal.jpg', legenda: 'vice-prefeito', small : true}
